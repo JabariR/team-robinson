@@ -1,0 +1,62 @@
+/*
+Reset - remove all default padding and margin added by the browser's default stylesheet
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+/*
+Typography - Set up base typographic setting for text
+ */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 1rem;
+  font-wieght: bold;
+}
+
+
+/* Styles for this site's theme below  */
+table {
+  /* Remove CellSpacing and CellPadding with CSS*/
+  border-collapse: collapse;
+  /* Set width to 100% so that it goes all the way across the screen  */
+  width: 100%;
+}
+
+
+/*
+Let's use random backgourd-colors for now so we can see the different parts of the site
+*/
+.header {
+  background-color: red;
+
+}
+
+.navigation {
+  background-color: blue;
+}
+
+.banner {
+  background-color: green;
+}
+
+.main-content {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: pink;
+}
