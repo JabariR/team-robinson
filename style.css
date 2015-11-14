@@ -51,7 +51,7 @@ table {
   /* Remove CellSpacing and CellPadding with CSS*/
   border-collapse: collapse;
   /* Set the width for the table to a standard safe screen resolution */
-  width: 1024px;
+  max-width: 1024px;
   /*Use this setting to center the table in the middle of the screen*/
   margin: 0 auto;
 }
