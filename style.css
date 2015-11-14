@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
     So 2rem is equal to 36px.
   */
   font-size: 1rem;
-  font-wieght: bold;
+  font-weight: bold;
 }
 
 
@@ -99,6 +99,10 @@ Let's use random backgourd-colors for now so we can see the different parts of t
   font-size: 2rem;
 }
 
+.main-content p {
+  padding: 0 2rem;
+}
+
 .main-content ul {
   font-size: 0;
   list-style: none;
@@ -107,7 +111,7 @@ Let's use random backgourd-colors for now so we can see the different parts of t
 
 .main-content li {
   display: inline-block;
-  width: calc( (1/7) * 100% );
+  width: calc( 1 / 7 * 100% );
 }
 
 .framed {
