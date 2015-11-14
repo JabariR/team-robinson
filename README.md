@@ -27,7 +27,7 @@ I looks like the validator doesn't know what Calc() is yet. Calc is supported by
 ## Links to branches
 - [01-text-only](https://github.com/JabariR/team-robinson/tree/01-text-only)
 - [02-text-mark-up](https://github.com/JabariR/team-robinson/tree/02-text-mark-up)
-- [03-structue-with-htlm]() [04-style-site-with-css](https://github.com/JabariR/team-robinson/tree/04-style-site-with-css)
+- [03-structue-with-htlm](https://github.com/JabariR/team-robinson/tree/03-structure-with-html) [04-style-site-with-css](https://github.com/JabariR/team-robinson/tree/04-style-site-with-css)
 - [05-final-styles-and-images](https://github.com/JabariR/team-robinson/tree/05-final-styles-and-images)
 - [06-debug](https://github.com/JabariR/team-robinson/tree/06-debug)
 - [gh-pages](https://github.com/JabariR/team-robinson/tree/gh-pages)
