@@ -14,49 +14,108 @@ Typography - Set up base typographic setting for text
  */
 
 html {
+  /* We should always set the base font-size for the site ONCE here */
   font-size: 18px;
 }
 
 body {
-  font-family: sans-serif;
-  line-height: 1;
+  background-color: #3399FF;
+  color: white;
+  font-family: courier;
+  /* We need to set line-height here*/
+  line-height: 1.5;
 }
 
 h1,h2,h3,h4,h5,h6 {
+  /*
+    A "rem" (:root element unit)is equal to 18px.
+    This is the base font-size we set for the site.
+    So 2rem is equal to 36px.
+  */
   font-size: 1rem;
   font-wieght: bold;
 }
+
+
+
+/*Responsive settings*/
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 
 
 /* Styles for this site's theme below  */
 table {
   /* Remove CellSpacing and CellPadding with CSS*/
   border-collapse: collapse;
-  /* Set width to 100% so that it goes all the way across the screen  */
-  width: 100%;
+  /* Set the width for the table to a standard safe screen resolution */
+  width: 1024px;
+  /*Use this setting to center the table in the middle of the screen*/
+  margin: 0 auto;
 }
 
 
 /*
 Let's use random backgourd-colors for now so we can see the different parts of the site
 */
-.header {
-  background-color: red;
 
+/*Header styles*/
+.header h1 {
+  border-bottom: 1px solid white;
+  font-size: 4rem;
+  padding: 2rem 0;
+  text-align: center;
 }
 
-.navigation {
-  background-color: blue;
+/*Navigation Styles*/
+.navigation td {
+  /* Since <a> are inline-elements, we can center all of them using text-align center on their parent container  */
+  text-align: center;
 }
 
-.banner {
-  background-color: green;
+.navigation a {
+  border-radius: 5px;
+  color: white;
+  display: inline-block; /* Make these inline-blocks so we can give them padding */
+  padding: 1rem;
+  text-decoration: none;
 }
 
-.main-content {
-  background-color: yellow;
+.navigation a:hover {
+  background-color: white;
+  color: #3399FF;
 }
 
+/*Banner styles*/
+.banner td{
+
+  text-align: center;
+}
+
+/*Main Content Styles*/
+.main-content h2 {
+  font-size: 2rem;
+}
+
+.main-content ul {
+  font-size: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.main-content li {
+  display: inline-block;
+  width: calc( (1/7) * 100% );
+}
+
+.framed {
+  border: 30px solid white;
+  box-shadow: 1px 1px 10px black;
+}
+
+/*Footer Styles*/
 .footer {
-  background-color: pink;
+  border-top: 1px solid white;
 }
